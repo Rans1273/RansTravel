@@ -350,7 +350,7 @@ body::-webkit-scrollbar {
     }
     .logo-container img {
         width: 45px;
-        margin-left: 10px;
+        margin-right: 10px;
     }
     .logo-container h1{
         font-size: 25px;
@@ -393,7 +393,6 @@ body::-webkit-scrollbar {
         border-radius: 40px;
     }
 }
-
 
 @media screen and (max-width: 900px){
     .logo-container {
@@ -469,29 +468,36 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 800px){
+    .header1{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: auto;
+    }
+    .navbar {
+        margin-top: 3px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navbar a{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .logo-container {
-        margin-left: 30px;
-        margin-bottom: 10px;
+        margin-left: 0px;
     }
     .logo-container .logo{
-        width: 68px;
-        height: 68px;
+        width: 50px;
+        height: 50px;
         margin-right: 5px;
     }
     .logo-container img {
-        width: 43px;
-        margin-left: 10px;
+        margin-right: 10px;
+        width: 35px;
     }
     .logo-container h1{
         font-size: 23px;
-    }
-    .header1 .navbar {
-        gap: 18px;
-        padding-left: 36px;
-        padding-right: 24px;
-    }
-    .header1 .navbar a{
-        font-size: 16px;
     }
     .teksopening{
         width: 500px;
@@ -554,29 +560,40 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 700px){
+    .header1{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: auto;
+    }
+    .header1 .navbar a{
+        font-size: 15px;
+    }
+    .navbar {
+        margin-top: 3px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navbar a{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
     .logo-container {
-        margin-left: 30px;
-        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-bottom: 0px;
     }
     .logo-container .logo{
-        width: 67px;
-        height: 67px;
+        width: 50px;
+        height: 50px;
         margin-right: 5px;
     }
     .logo-container img {
-        width: 42px;
-        margin-left: 10px;
+        margin-right: 10px;
+        width: 35px;
     }
     .logo-container h1{
         font-size: 22px;
-    }
-    .header1 .navbar {
-        gap: 17px;
-        padding-left: 34px;
-        padding-right: 22px;
-    }
-    .header1 .navbar a{
-        font-size: 14px;
     }
     .teksopening{
         width: 450px;
@@ -639,29 +656,40 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 600px){
+    .header1{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: auto;
+    }
+    .navbar {
+        margin-top: 3px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .header1 .navbar a{
+        font-size: 15px;
+    }
+    .navbar a{
+        margin-left: 1px;
+        margin-right: 1px;
+    }
     .logo-container {
-        margin-left: 27px;
-        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-bottom: 0px;
     }
     .logo-container .logo{
-        width: 65px;
-        height: 65px;
+        width: 50px;
+        height: 50px;
         margin-right: 5px;
     }
     .logo-container img {
-        width: 40px;
-        margin-left: 10px;
+        margin-right: 10px;
+        width: 35px;
     }
     .logo-container h1{
         font-size: 20px;
-    }
-    .header1 .navbar {
-        gap: 15px;
-        padding-left: 31px;
-        padding-right: 19px;
-    }
-    .header1 .navbar a{
-        font-size: 12px;
     }
     .teksopening{
         width: 400px;
@@ -739,29 +767,38 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 500px){
+    .header1{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: auto;
+    }
+    .navbar {
+        margin-top: 3px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .header1 .navbar a{
+        font-size: 14px;
+        margin-left: -3px;
+        margin-right: -3px;
+    }
     .logo-container {
-        margin-left: 20px;
-        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-bottom: 0px;
     }
     .logo-container .logo{
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         margin-right: 5px;
     }
     .logo-container img {
-        width: 38px;
-        margin-left: 10px;
+        margin-right: 10px;
+        width: 35px;
     }
     .logo-container h1{
         font-size: 16px;
-    }
-    .header1 .navbar {
-        gap: 12px;
-        padding-left: 25px;
-        padding-right: 15px;
-    }
-    .header1 .navbar a{
-        font-size: 10px;
     }
     .teksopening{
         width: 350px;
@@ -839,29 +876,26 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 400px){
+    .header1 .navbar a{
+        font-size: 12px;
+        margin-left: -3px;
+        margin-right: -3px;
+    }
     .logo-container {
-        margin-left: 17px;
-        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-bottom: 0px;
     }
     .logo-container .logo{
-        width: 57px;
-        height: 57px;
+        width: 50px;
+        height: 50px;
         margin-right: 5px;
     }
     .logo-container img {
-        width: 37px;
-        margin-left: 10px;
+        margin-right: 10px;
+        width: 35px;
     }
     .logo-container h1{
         font-size: 14px;
-    }
-    .header1 .navbar {
-        gap: 10px;
-        padding-left: 23px;
-        padding-right: 13px;
-    }
-    .header1 .navbar a{
-        font-size: 8px;
     }
     .teksopening{
         width: 325px;
