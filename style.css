@@ -182,8 +182,9 @@ body::-webkit-scrollbar {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
     gap: 10px;
